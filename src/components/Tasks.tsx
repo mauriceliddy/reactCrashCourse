@@ -6,8 +6,8 @@ const Tasks = (props:TaskArray) => {
 
     return (
         <>
-            {props.tasks.map((task) => (
-                <Task key={task.id} {...task} onDelete={props.onDelete} onToggle = {props.onToggle}/>
+            {props.tasks.map((task,index) => (
+                <Task key={index} {...task} onDelete={props.onDelete} onToggle = {props.onToggle}/>
             ))}
         </>
     )

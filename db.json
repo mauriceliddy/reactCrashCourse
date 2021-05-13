@@ -1,19 +1,28 @@
 {
-  "posts": [
+  "tasks": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "text": "Doctors appointment",
+      "day": "Feb 4th 2002 @ 4:30",
+      "reminder": true
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "text": "Dentists appointment",
+      "day": "Feb 22nd 2005 @ 7:15",
+      "reminder": true
+    },
+    {
+      "text": "Go over HackerRank",
+      "day": "2 hours",
+      "reminder": false,
+      "id": 4
+    },
+    {
+      "text": "Call Cid",
+      "day": "ASAP",
+      "reminder": true,
+      "id": 6
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
